@@ -1,0 +1,39 @@
+{
+	"folders": [
+		{
+			"path": ".",
+		},
+	],
+
+	"settings": {
+		"editor.fontFamily": "'Cascadia Code', 'JetBrains Mono', \"Ligalex Mono\", Consolas, 'Courier New', monospace",
+		"editor.fontLigatures": "'ss02', 'zero'",
+		"github.copilot.advanced": {
+			"inlineSuggestCount": 20,
+			"length": 500,
+			"listCount": 10,
+		},
+
+		"luau-lsp.require.mode": "relativeToFile",
+		"luau-lsp.require.directoryAliases": {
+			"@lune/": "~/.lune/.typedefs/0.7.11/",
+		},
+
+		"emmet.excludeLanguages": ["markdown", "lua", "luau"],
+
+		"evenBetterToml.formatter.allowedBlankLines": 1,
+		"evenBetterToml.formatter.columnWidth": 120,
+		"luau-lsp.completion.autocompleteEnd": true,
+		"luau-lsp.sourcemap.autogenerate": false,
+		"luau-lsp.sourcemap.enabled": false,
+		"luau-lsp.completion.imports.suggestServices": false,
+		"luau-lsp.completion.imports.enabled": true,
+		"luau-lsp.sourcemap.includeNonScripts": false,
+		"luau-lsp.signatureHelp.enabled": true,
+		"terminal.integrated.scrollback": 8000,
+	},
+
+	"extensions": {
+		"recommendations": [],
+	},
+}
